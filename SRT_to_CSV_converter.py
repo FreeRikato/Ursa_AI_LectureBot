@@ -40,10 +40,10 @@ def write_to_csv(subtitles, csv_file_path):
             writer.writerow(subtitle)
 
 # Path to your SRT file
-srt_file_path = './One of the Greatest Speeches Ever   Steve Jobs.en.srt'
+srt_file_path = 'knowledge_base/SRT/output.srt'
 
 # Path where you want to save the CSV file
-csv_file_path = './example.csv'
+csv_file_path = 'knowledge_base/CSV/output.csv'
 
 # Parse the SRT file
 subtitles = parse_srt(srt_file_path)

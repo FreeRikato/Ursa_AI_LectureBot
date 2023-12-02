@@ -1,1 +1,7 @@
 langchain
+git+https://github.com/openai/whisper.git
+python-dotenv
+google-generativeai
+InstructorEmbedding
+sentence_transformers
+faiss-cpu
